@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <h2>Who am I</h2>
-<p> My name is Agustin Navarro and I am from Zaragoza (Spain) where I take my degree and
+<p> My name is Agustin Navarro and I am from Zaragoza (Spain) where I took my degree and
 M.Eng on Computer Engineering. I am mainly interested in Computer Architecture,
 Embedded system, but I am also concerned about parallel programing and heterogeneous
 systems.
