@@ -1,5 +1,7 @@
 # Blog
 
-A personal website/blog with github pages.
+URL: [https://agusnt.github.io/](https://agusnt.github.io/)
+
+A personal [website/blog](https://agusnt.github.io/) with github pages.
 
 The theme used is [Indigo](https://github.com/agusnt/indigo.git)
