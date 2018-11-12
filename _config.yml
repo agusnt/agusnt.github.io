@@ -1,109 +1,66 @@
-# main text of home
+# Site
+repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+
+# Personal info
 name: Agustin Navarro Torres
-bio: Computer Architecture & Food
+title: PhD student
+email: agusnt (at) unizar (dot) es
 
-# twitter summary info
-description: A blog about technology and stuff related
+# Social links
+#twitter_username: jekyllrb
+github_username: agusnt
+gitlab_username: agusnt
+gitlab_unizar_username: agusnt
+#dribbble_username: jekyll
+#facebook_username: jekyll
+#flickr_username: jekyll
+#instagram_username: jekyll
+linkedin_username: agustin-navarro-torres-040338a8
+email_username: agusnt@unizar.es
+#pinterest_username: jekyll
+#youtube_username: jekyll
+#googleplus_username: jekyll
 
-# if it's an external image, update below for true
-# better with square images
-external-image: false
-picture: assets/images/profile.jpg
 
-# If you want to include your resume, set to true
-# and specify source (external or local).
-resume: false
-resume-external: true
-resume-url: https://google.com/?q=my+resume
+# About Section
+# about_title: About Me (Use this to override about section title)
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+    I am a PhD student at the Computer Architecture Group (gaZ) at the University
+    of Zaragoza under the supervision of Pablo Ibañez and 
+    [Jesús Alastruey](http://http://webdiis.unizar.es/~chus/). Before that I took 
+    my BSc and M.Eng at the University of Zaragoza (2012-2018)
 
-url: http://agusnt.github.io
+    My research interests focus on Computer Architecture, specifically on the
+    distribution of hardware resources by software and memory hierarchy.
 
-permalink: /:title/
+# Projects Section
+projects_title: Research #(Use this to override about projects section title)
 
-# To enable google analytics, supply your token below
-# analytics-google: 'UA-MYANALYTICS'
+# Experience Section
+# experience_title: Experience #(Use this to override about experience section title)
 
-# To enable piwik tracking, supply your url & site ID below
-# analytics-piwik-url: 'piwik.my-host.com'
-# analytics-piwik-id: 1
+# Education Section
+# educaton_title: Education #(Use this to override about education section title)
 
-# if you don't want comments in your posts, leave categories empty
-disqus:
-  shortname: mydisqus # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+# More Section
+# more_title: A Little More About Me #(Use this to override about more section title)
+#more_content: | # this will include new lines to allow paragraphs
+#  This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
+#
+#  Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
 
-# if you don't have any of social below, comment the line
-# facebook: myfacebook
-twitter: agusnt_
-# google: mygoogle
-instagram: ant.solenopsis
-# pinterest: mypinterest
-# linkedin: mylinkedin
-# youtube: myyoutube
-# spotify: myspotify
-github: agusnt
-# lastfm: mylastfm
-# stackoverflow: 7044681/mystackoverflow
-# quora: userquora
-# reddit: username
-# medium: medium
-# vimeo: myvimeo
-# lanyrd: mylanyrd
-email: agusnavarro11@gmail.com
+# Footer
+footer_show_references: true
 
-#authors:
-#    johndoe:
-#        name: John Doe
-#        bio: A Man who travels the world eating noodles
-#        external-image: false
-#        picture: assets/images/profile.jpg
-#        twitter: johndoe
-#    jamesfoster:
-#        name: James Foster
-#        bio: A Man who develops software with coffee
-#        external-image: false
-#        picture: assets/images/james.jpg
-#        twitter: jamesfoster
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
 
-# do you want a larger site? change the option below
-# options: [normal, large] | default: normal
-# normal = 560px / large = 810px
-width: normal
-
-# if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
-
-# if you don't need projects, comment the *projects* configs below
-projects: true
-
-# if you don't need "about" or "blog", comment them out below
-about: true
-#blog: true
-
-# do you want to show the "read time" of the posts?
-read-time: true
-
-# do you want to show the "tags" inside the posts?
-show-tags: true
-
-# related posts inside a post?
-related: true
-
-# Display links for next and previous posts for the specified categories
-post-advance-links: [blog]
-
-# show author block at the end of a post ?
-show-author: true
-
-# do you want some animations?
-animation: true
+sass:
+  sass_dir: _sass
+  style: compressed
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-
-jekyll-mentions:
-    base_url: https://github.com
+ - jekyll-seo-tag
