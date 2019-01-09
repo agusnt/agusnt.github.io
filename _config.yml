@@ -28,8 +28,8 @@ email_username: agusnt@unizar.es
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
     I am a PhD student at the Computer Architecture Group (gaZ) at the University
-    of Zaragoza under the supervision of Pablo Ibañez and 
-    [Jesús Alastruey](http://http://webdiis.unizar.es/~chus/). Before that I took 
+    of Zaragoza under the supervision of [Pablo Ibañez](http://webdiis.unizar.es/~peimarin/) 
+    and [Jesús Alastruey](http://webdiis.unizar.es/~chus/). Before that I took 
     my BSc and M.Eng at the University of Zaragoza (2012-2018)
 
     My research interests focus on Computer Architecture, specifically on the
