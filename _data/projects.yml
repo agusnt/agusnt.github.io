@@ -1,7 +1,15 @@
 # Project template
+- name: Exposing Abstraction-Level Interactions with a Parallel Ray Tracer
+  authors: Darío Suárez Gracia, Ruben Gran Tejero, Luis M. Ramos, Agustín Navarro-Torres, Adolfo Muñoz, Joaquín Ezpeleta, José Luis Briz, Ana C. Murillo, Eduardo Montijano, Javier Resano, María Villarroya-Gaudó, Jesús Alastruey-Benedé, Enrique Torres, Pedro Álvarez, Pablo Ibáñez, and Víctor Viñals 
+  place: Workshop on Computer Architecture Education (WCAE)
+  information: 22 June 2019, Phoenix, EEUU
+  pdf: http://webdiis.unizar.es/~dario/research/papers/WCAE_19.pdf
+  slides: http://webdiis.unizar.es/~dario/research/papers/WCAE_ENG.pdf
+  #iee: IEE
 - name: Memory Hierarchy Performance Characterization of SPEC CPU2017
   authors: Agustín Navarro-Torres, Jesús Alastruey-Benedé, Pablo Ibáñez-Marín, Víctor Viñals-Yúfera
   place: Student Poster Session of the 14th Conference on High Performance and Embedded Architectures and Compilers 
   information: July 2018, Fiuggi, Italy
-  #pdf: hola
+  #pdf: none
+  #slides: none
   #iee: IEE
