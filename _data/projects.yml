@@ -1,4 +1,11 @@
 # Project template
+- name: Memory hierarchy characterization of SPEC CPU2006 and SPEC CPU2017 on the Intel Xeon Skylake-SP
+  authors: Agustín Navarro-Torres, Jesús Alastruey-Benedé, Pablo Ibáñez-Marín, Víctor Viñals-Yúfera 
+  place: Accepted for publication in PLOS ONE (JCR 2018: Q1)
+  information: 2019
+  #pdf: none
+  #slides: none
+  #iee: IEE
 - name: Exposing Abstraction-Level Interactions with a Parallel Ray Tracer
   authors: Darío Suárez Gracia, Ruben Gran Tejero, Luis M. Ramos, Agustín Navarro-Torres, Adolfo Muñoz, Joaquín Ezpeleta, José Luis Briz, Ana C. Murillo, Eduardo Montijano, Javier Resano, María Villarroya-Gaudó, Jesús Alastruey-Benedé, Enrique Torres, Pedro Álvarez, Pablo Ibáñez, and Víctor Viñals 
   place: Workshop on Computer Architecture Education (WCAE)
