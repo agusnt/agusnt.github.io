@@ -1,9 +1,9 @@
 # Project template
 - name: Memory hierarchy characterization of SPEC CPU2006 and SPEC CPU2017 on the Intel Xeon Skylake-SP
   authors: Agustín Navarro-Torres, Jesús Alastruey-Benedé, Pablo Ibáñez-Marín, Víctor Viñals-Yúfera 
-  place: "Accepted for publication in PLOS ONE (JCR 2018: Q1)"
+  place: "(JCR 2018: Q2)"
   information: 2019
-  #pdf: none
+  pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220135
   #slides: none
   #iee: IEE
 - name: Exposing Abstraction-Level Interactions with a Parallel Ray Tracer
