@@ -24,7 +24,7 @@
           {{ project.authors }}<br>
           {{ project.place }}<br>
           {%- if project.doi -%}
-            {{ project.doi }}<br>
+            [<a href="{{ project.doi }}" target="_blank">{{ project.doi }}</a>]<br>
           {%- endif -%}
           {%- if project.jcr -%}
             {{ project.jcr }}<br>
