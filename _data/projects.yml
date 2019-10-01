@@ -1,8 +1,8 @@
 # Project template
 - name: Memory hierarchy characterization of SPEC CPU2006 and SPEC CPU2017 on the Intel Xeon Skylake-SP
   authors: Agustín Navarro-Torres, Jesús Alastruey-Benedé, Pablo Ibáñez-Marín, Víctor Viñals-Yúfera 
-  place: PLOS ONE 14(8): e0220135. 
-  doi: https://doi.org/10.1371/journal.pone.0220135.
+  place: "PLOS ONE 14(8): e0220135" 
+  doi: "https://doi.org/10.1371/journal.pone.0220135"
   jcr: "(JCR 2018: Q2)"
   information: 2019
   pdf: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0220135
