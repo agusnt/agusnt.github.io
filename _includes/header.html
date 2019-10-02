@@ -30,7 +30,7 @@
         {%- if site.github_username -%}
           <li>
             <a target="_blank" href="https://github.com/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fa fa-github"></i>
+              <i class="fab fa-github"></i>
             </a>
           </li>
         {%- endif -%}
@@ -44,7 +44,7 @@
         {%- if site.gitlab_unizar_username -%}
         <li>
           <a target="_blank" href="https://gitlab.unizar.es/{{ site.github_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-            <i class="fa fa-git"></i>
+            <i class="fab fa-git"></i>
           </a>
         </li>
         {%- endif -%}   
@@ -58,9 +58,16 @@
         {%- if site.linkedin_username -%}
           <li>
             <a target="_blank" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" class="button button--sacnite button--round-l">
-              <i class="fa fa-linkedin"></i>
+              <i class="fab fa-linkedin"></i>
             </a>
           </li>
+        {%- endif -%}
+        {%- if site.orcid -%}
+        <li>
+          <a target="_blank" href="https://orcid.org/{{ site.orcid| cgi_escape | escape }}" class="button button--sacnite button--round-l">
+            <i class="fab fa-orcid"></i>
+          </a>
+        </li>
         {%- endif -%}
         {%- if site.pinterest_username -%}
           <li>
@@ -91,11 +98,10 @@
           </li>
         {%- endif -%}
       </ul>
-
       {%- if site.email -%}
-        <p>
-          Email: <a href="mailto:{{ site.email_username }}" target="_blank">{{ site.email | escape }}</a>
-        </p>
+          <p>
+            Email: <a href="mailto:{{ site.email_username }}" target="_blank">{{ site.email | escape }}</a>
+          </p>
       {%- endif -%}
       {%- if site.website -%}
         <p>

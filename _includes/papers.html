@@ -1,0 +1,39 @@
+<div class="container papers-container">
+  <h3>{{ site.papers_title | default: "papers" }}</h3>
+  {% for paper in site.data.papers %}
+    <div class="row clearfix paper">
+      <div class="">
+        <h2>
+          <b>
+            {{ paper.name }}
+          </b>
+            {%- if paper.pdf -%}
+              [<a href="{{ paper.pdf }}" target="_blank">PDF</a>]
+            {%- endif -%}
+            {%- if paper.slides -%}
+              [<a href="{{ paper.slides}}" target="_blank">Slides</a>]
+            {%- endif -%}
+            {%- if paper.poster -%}
+              [<a href="{{ paper.poster}}" target="_blank">Poster</a>]
+            {%- endif -%}
+            {%- if paper.iee -%}
+              [<a href="http://{{ paper.iee }}" target="_blank">IEE</a>]
+            {%- endif -%}
+        </h2>
+        <p>
+          {{ paper.authors }}<br>
+          <em>
+            {{ paper.place }}<br>
+            {%- if paper.doi -%}
+              <a href="{{ paper.doi }}" target="_blank">{{ paper.doi }}</a><br>
+            {%- endif -%}
+            {%- if paper.jcr -%}
+              {{ paper.jcr }}<br>
+            {%- endif -%}
+            {{ paper.information }}<br>
+          </em>
+        </p>
+      </div>
+    </div>
+  {% endfor %}
+</div>

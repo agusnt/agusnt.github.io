@@ -1,6 +1,6 @@
 # Site
 repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
+favicon: images/fontawesome-free-5.11.2-web/
 
 # Personal info
 name: Agustin Navarro Torres
@@ -10,13 +10,14 @@ email: agusnt (at) unizar (dot) es
 # Social links
 #twitter_username: jekyllrb
 github_username: agusnt
-gitlab_username: agusnt
+#gitlab_username: agusnt
 gitlab_unizar_username: agusnt
+orcid: 0000-0002-3556-2244
 #dribbble_username: jekyll
 #facebook_username: jekyll
 #flickr_username: jekyll
 #instagram_username: jekyll
-linkedin_username: agustin-navarro-torres-040338a8
+#linkedin_username: agustin-navarro-torres-040338a8
 email_username: agusnt@unizar.es
 #pinterest_username: jekyll
 #youtube_username: jekyll
@@ -35,8 +36,8 @@ about_content: | # this will include new lines to allow paragraphs
     My research interests focus on Computer Architecture, specifically on the
     distribution of hardware resources by software and memory hierarchy.
 
-# Projects Section
-projects_title: Research #(Use this to override about projects section title)
+# Papers Section
+papers_title: Research #(Use this to override about projects section title)
 
 # Experience Section
 # experience_title: Experience #(Use this to override about experience section title)
